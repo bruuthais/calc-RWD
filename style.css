@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: rgb(151, 76, 248);
+  background: url(./img/porquinhos\ voadores.jpg);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.3em;
   line-height: 1.5em;
@@ -11,12 +11,14 @@ h1 {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-weight: 350;
   text-align: center;
+  text-transform: uppercase;
+  text-shadow: 1px 5px 1px #f1b5f7;
 }
 
 .container {
   max-width: 410px;
   margin: 50px auto;
-  background: #fff;
+  background: rgb(255, 255, 255);
   padding: 20px;
   padding-right: 15px;
   border-radius: 10px;
@@ -37,13 +39,12 @@ form input {
 }
 
 form input:focus {
-  outline: 1px solid var(--primary-color);
+  outline: 1px solid lightgray;
 }
 
 form button {
   border: none;
-  background: var(--primary-color);
-  color: #fff;
+  background: rgb(211, 211, 211);
   font-size: 18px;
   font-weight: 700;
   height: 55px;
@@ -52,7 +53,7 @@ form button {
 }
 
 form button:hover {
-  background: gray;
+  background: #f1b5f7;
 }
 
 .calculadora {
@@ -60,20 +61,22 @@ form button:hover {
 }
 
 .display {
-  font-size: 1.5em;
+  font-size: 1.3em;
   width: 390px;
+  height: 50px;
   text-align: right;
 }
 
 .btn {
-  width: 100%;
-  height: 50px;
-  font-size: 1em;
+  width: 97px;
+  height: 60px;
+  font-size: 1.5em;
   border: none;
-  background: #dfdfdf;
+  border-radius: 5px;
+  background: #8fd9fc;
   cursor: pointer;
 }
 
 .btn:hover {
-  background: #9e9e9e;
+  background: #f1b5f7;
 }
