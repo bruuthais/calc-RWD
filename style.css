@@ -7,8 +7,8 @@ body {
 }
 
 h1 {
-  font-family: "Boogaloo", cursive;
-  font-size: 3em;
+  font-family: "Archivo Black", sans-serif;
+  font-size: 1.8em;
   font-weight: 350;
   color: rgb(0, 0, 0);
   text-align: center;
@@ -36,6 +36,7 @@ h1 {
   text-align: right;
   background: #f2b5f779;
   border: 2px solid black;
+  margin-bottom: 10px;
   border-radius: 5px;
 }
 
@@ -45,11 +46,12 @@ h1 {
   border: none;
   border-radius: 5px;
   background: #8fd9fc;
-  font-size: 1.5em;
+  font-size: 1.3em;
   cursor: pointer;
+  font-weight: 300;
 }
 
 .btn:hover {
-  font-weight: 600;
+  font-weight: 550;
   background: #f2b5f779;
 }
